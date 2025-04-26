@@ -135,7 +135,9 @@ terraform apply --auto-approve
           Choose JSON → Download the file
           5.Use in Terraform:
  ```bash
+This .json file create in your MobaXstrem
 credentials = file("your-key.json")
+
  ```
   ```bash
     vi gcp.tf
