@@ -64,14 +64,18 @@ Provision infrastructure on both **AWS** and **GCP** using **Terraform**, deploy
     6. Outputs:
     Displays the public IPs of the Dev, QA, and XY instances.
 ```bash
-terrafom init
+terraform init
 ```
 ```bash
-terrafom apply--auto-approve
+terraform apply--auto-approve
 ```
 - Login XY machine
-- sudo -i
-- yum install dnsmasq -y
+ ```bash
+  sudo -i
+```
+```bash
+  yum install dnsmasq -y
+```
 - vi /etc/dnsmasq.conf
    ```bash
    address=/dev.pradnya.local/PRIVATE_IP
@@ -158,10 +162,10 @@ Key Components
     Displays public IP addresses of the created instances.
 
    ```bash
-   terrafom init
+   terraform init
   ```
   ```bash
-  terrafom apply--auto-approve
+  terraform apply--auto-approve
   ```
  Login XY machine
    ```bash
