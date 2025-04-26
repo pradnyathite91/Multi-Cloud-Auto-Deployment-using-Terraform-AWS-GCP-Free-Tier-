@@ -67,7 +67,7 @@ Provision infrastructure on both **AWS** and **GCP** using **Terraform**, deploy
 terraform init
 ```
 ```bash
-terraform apply--auto-approve
+terraform apply --auto-approve
 ```
 - Login XY machine
  ```bash
@@ -165,7 +165,7 @@ Key Components
    terraform init
   ```
   ```bash
-  terraform apply--auto-approve
+  terraform apply --auto-approve
   ```
  Login XY machine
    ```bash
